@@ -13,20 +13,18 @@
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
 
     <link rel="stylesheet" href="index.css">
-
-    <title>Hello, world!</title>
   </head>
   <body>
 
     <div class="container">
         <div class="row">
             <div class="col-sm-8 col-sm-offset-2">
-                <h1 class="quoteBody">News of the Day?</h1>
+                <h1 class="quoteBody">News Board</h1>
                 <h1><a href="#" class="quoteBodyLink"></a><h1>
                 <p class="quoteAuthor"></p>
                 <hr>
-                <button class="btn btn-success read">Show me!</button>
-                <a disabled class="tweetQuote btn btn-info pull-right" href=""><i class="fa fa-twitter"></i> Tweet</a>
+                <button class="btn btn-primary read">Show</button>
+                <a disabled class="tweetQuote btn-round btn btn-lg btn-dark pull-right" href=""><i class="fa fa-twitter"></i> </a>
             </div>
         </div>
     </div>
