@@ -16,11 +16,11 @@ $(document).ready(function() {
             $('.tweetQuote')
                 .attr(
                     'href',
-                    'https://twitter.com/intent/tweet?text= ' + currentQuote.title + ' - ' + currentQuote.author
+                    'https://twitter.com/intent/tweet?text= ' + currentQuote.title + ' - ' + currentQuote.author+ ' - ' + currentQuote.url
                 )
                 .attr('target', '_blank')
                 .attr('disabled', false);
-            $('.read').html('Show me one more');
+            $('.read').html('More');
         });
 
         // console.log(quotes[0].title);
