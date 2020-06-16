@@ -1,0 +1,21 @@
+.quoteBody {
+    font-size: 33px !important;
+    color: #ff3333 !important;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.quoteAuthor {
+    font-size: 28px !important;
+}
+
+.btn {
+    border-radius: 0px;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.tweetQuote {
+    margin-top: 10px;
+}
