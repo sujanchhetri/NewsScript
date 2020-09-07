@@ -1,67 +1,33 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS --> 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <!-- Bootstrap CSS -->
+    https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
-    <style>
-      body{
-	background-color: #141d26;
-	color:white;
-}
+    <link rel="stylesheet" type="text/css" href="styles.css" >
+</head>
 
-a{
-		color:white;
-}
-.quoteBody {
-    font-size: 33px !important;
-    color: white !important;
-    font-family: 'times new roman';
-}
-
-.quoteAuthor {
-    font-size: 28px !important;
-}
-
-.btn {
-    border-radius: 0px;
-}
-
-.btn:focus {
-    outline: none;
-}
-
-.tweetQuote {
-    margin-top: 10px;
-}
-      </style>
-  </head>
-  <body>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-8 col-sm-offset-2">
-                <h1 class="quoteBody">News Board</h1>
-                <h1><a href="#" class="quoteBodyLink"></a><h1>
-                <p class="quoteAuthor"></p>
-                <hr>
-                <button class="btn btn-primary read">Show</button>
-                <a disabled class="tweetQuote btn-round btn btn-lg btn-dark pull-right" href=""><i class="fa fa-twitter"></i> </a>
-            </div>
+<body>
+    <div class="quote-box">
+        <div>
+            <h1><a href="#" class="quoteBodyLink"></a></h1>
         </div>
+        <p class="author"></p>
+        <a id="tw-button" target="_blank"><button id="twitter"><i class="fa fa-twitter"></i> Tweet this</button></a>
+        <button id="refresh"><b>Next<b></button>
     </div>
-  
-
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
     <script src="index.js"></script>
-  </body>
+</body>
+
 </html>
