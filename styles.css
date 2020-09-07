@@ -1,0 +1,63 @@
+body {
+    background-color: #444444;
+    color: #444444;
+  }
+  
+  .quote-box {
+    margin: auto;
+    margin-top: 20%;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    width: 400px;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px #666666;
+  }
+  
+  #quote {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .author {
+    font-size: 18px;
+    text-align: right;
+    position: relative;
+  }
+  
+  button {
+    height: 30px;
+    padding: 5px;
+    width: 95px;
+    background-color: #444444;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    position: relative;
+    left: -70px;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+    position: relative;
+    top: -2px;
+    left: -72px;
+    box-shadow: 2px 2px 2px black;
+  }
+  
+  #refresh{
+    width: 110px;
+    position: relative;
+    left: 80px;
+  }
+  
+  #refresh:hover {
+    position: relative;
+    top: -2px;
+    left: 78px;
+    box-shadow: 2px 2px 2px black;
+  }
+  
+  #button-text {
+    color: #DDDDDD;
+  }
